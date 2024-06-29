@@ -20,11 +20,14 @@ Additionally, you'll need FFmpeg installed on your system. Follow this [simple t
 
 ## Usage
 1. Clone the repository or download the script.
-2. Place your MP3 and MP4 files in a designated folder.
-3. Run the script and specify the path to your music folder.
+2. Place your MP3 and MP4 files in a folder.
+3. open the code "normalizing_volumes.py" by mouse right click and open with notepad
+4. find this line in the code: folder_path = r"C:\My Files\My Music\NES Soundtracks"
+5. paste your folder path between "" signs
+6. save the file
+7. Run the script and enjoy!
 
 The script will create a subfolder named `normalized_songs` within your music folder, where it will place all the normalized audio files.
-
 
 ## Contributions
 Contributions are welcome! If you'd like to improve the script or add new features, please feel free to fork the repository and submit a pull request.
